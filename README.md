@@ -74,8 +74,9 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
   ```
   
   
-  <h2>
+  <h2 align="center">
 🚀 Installation Script By MasWayVPN V3 🚀<br>
+
 ### Fitur Script Mod By MasWayVPN
 
 • SSH & OpenVPN
