@@ -79,40 +79,25 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
 
 ### Fitur Script Mod By MasWayVPN
 
-• SSH & OpenVPN
-
-• SSH Websocket TLS & No TLS
-
-• OHP SSH & OHP Dropbear & OHP OpenVPN
-
-• XRAY VMESS
-
-• XRAY VLESS
-
-• XRAY TROJAN
-
-• SHADOWSOCKS
-
-• SSR
-
-• PPTP VPN
-
-• L2TP VPN
-
-• SSTP VPN
-
-• WIREGUARD
-
-• TROJAN GO
-
-• Backup Data ALL Service
-
-• Restore Data ALL Service
+• SSH & OpenVPN <br>
+• SSH Websocket TLS & No TLS <br>
+• OHP SSH & OHP Dropbear & OHP OpenVPN <br>
+• XRAY VMESS <br>
+• XRAY VLESS <br>
+• XRAY TROJAN <br>
+• SHADOWSOCKS <br>
+• SSR <br>
+• PPTP VPN <br>
+• L2TP VPN <br>
+• SSTP VPN <br>
+• WIREGUARD <br>
+• TROJAN GO <br>
+• Backup Data ALL Service <br>
+• Restore Data ALL Service <br>
 
 ### Os Supported
-• Debian 10 Only
-
-• Ubuntu 18.04 & 20.04 (Recommended)
+• Debian 10 Only <br>
+• Ubuntu 18.04 & 20.04 (Recommended) <br>
 
 # Service & Port
 
