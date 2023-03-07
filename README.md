@@ -80,23 +80,38 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
 ### Fitur Script Mod By MasWayVPN
 
 • SSH & OpenVPN
+
 • SSH Websocket TLS & No TLS
+
 • OHP SSH & OHP Dropbear & OHP OpenVPN
+
 • XRAY VMESS
+
 • XRAY VLESS
+
 • XRAY TROJAN
+
 • SHADOWSOCKS
+
 • SSR
+
 • PPTP VPN
+
 • L2TP VPN
+
 • SSTP VPN
+
 • WIREGUARD
+
 • TROJAN GO
+
 • Backup Data ALL Service
+
 • Restore Data ALL Service
 
 ### Os Supported
 • Debian 10 Only
+
 • Ubuntu 18.04 & 20.04 (Recommended)
 
 # Service & Port
@@ -106,10 +121,8 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
 [ SSH & XRAY SERVICES ] <br>
 <br>
 ⏩ Dropbear          : 443,109,143 ⏪ <br>
-<br>
 ⏩ Squid Proxy       : 3128,8080 ⏪ <br>
-<br>
-⏩ Open VPN          : 1194,2200,990 ⏪ <br>
+⏩ Open VPN          : 1194,2200,990 ⏪<br>
 ⏩ SSH SSL Websocket : 443 ⏪<br>
 ⏩ SSH Websocket     : 2082 ⏪<br>
 ⏩ OpenVPN Websocket : 2087 ⏪<br>
@@ -136,13 +149,21 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
 
  ### Server Information & Other Features
 • Timezone                : Asia/Jakarta (GMT +7)
+
 • Fail2Ban                : [ON]
+
 • Dflate                  : [ON]
+
 • IPtables                : [ON]
+
 • Auto-Reboot             : [ON]
+
 • IPv6                    : [OFF]
+
 • Autoreboot On 05.00 GMT +7
+
 • Futo Delete Expired Account
+
 • Full Orders For Various Services
 
   ```html
