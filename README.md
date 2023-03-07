@@ -132,24 +132,16 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
 <br>
 <br>
 
- ### Server Information & Other Features
-• Timezone                : Asia/Jakarta (GMT +7)
-
-• Fail2Ban                : [ON]
-
-• Dflate                  : [ON]
-
-• IPtables                : [ON]
-
-• Auto-Reboot             : [ON]
-
-• IPv6                    : [OFF]
-
-• Autoreboot On 05.00 GMT +7
-
-• Futo Delete Expired Account
-
-• Full Orders For Various Services
+ ### Server Information & Other Features <br>
+• Timezone                : Asia/Jakarta (GMT +7) <br>
+• Fail2Ban                : [ON] <br>
+• Dflate                  : [ON] <br>
+• IPtables                : [ON] <br>
+• Auto-Reboot             : [ON] <br>
+• IPv6                    : [OFF] <br>
+• Autoreboot On 05.00 GMT +7 <br>
+• Futo Delete Expired Account <br>
+• Full Orders For Various Services <br>
 
   ```html
 apt-get update && apt-get upgrade -y && reboot
