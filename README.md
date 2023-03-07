@@ -97,21 +97,6 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
 ⏩ SSTP VPN          : 444 ⏪<br>
 ⏩ Nginx             : 89 ⏪<br>
 ⏩ OHP SSH           : 443 ⏪<br>
-⏩ OHP Dropbear      : 443 ⏪<br>
-⏩ OHP OpenVPN       : 443 ⏪<br>
-<br>
-<br>
-
- ### Server Information & Other Features
-• Timezone                : Asia/Jakarta (GMT +7)
-• Fail2Ban                : [ON]
-• Dflate                  : [ON]
-• IPtables                : [ON]
-• Auto-Reboot             : [ON]
-• IPv6                    : [OFF]
-• Autoreboot On 05.00 GMT +7
-• Futo Delete Expired Account
-• Full Orders For Various Services
 
   ```html
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/MyMasWayVPN/MyMasWayVPN.github.io/main/v2.sh && chmod +x v2.sh && ./v2.sh
@@ -193,7 +178,8 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
 apt-get update && apt-get upgrade -y && reboot
 ```
 ```html
-rm -f setup.sh && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/MyMasWayVPN/MyMasWayVPN.github.io/main/v3.sh && chmod +x v3.sh && ./v3.sh ```
+rm -f setup.sh && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/MyMasWayVPN/MyMasWayVPN.github.io/main/v3.sh && chmod +x v3.sh && ./v3.sh 
+```
 
 </b>
 <h2 align="center">
