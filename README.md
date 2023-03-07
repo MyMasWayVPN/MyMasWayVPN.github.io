@@ -52,20 +52,148 @@ https://api.whatsapp.com/send/?phone=6283120857907&text&type=phone_number&app_ab
 ⏩ Shadowsocks WS none TLS : 80 ⏪<br>
 <br>
 <br>
+
   <h2 align="center">
 🚀 Update VPS Kamu Dulu Sebelum Instal Script 🚀<br>
 
   ```html
  apt-get update && apt-get upgrade -y && reboot
-   
   ```
 <h2 align="center">
-🚀 Installation Script By TARAP KUHING 🚀<br>
+🚀 Installation Script By MasWayVPN V1 🚀<br>
 
   ```html
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/MyMasWayVPN/MyMasWayVPN.github.io/main/install.sh && chmod +x install.sh && ./install.sh
  
   ```
+  
+  <h2 align="center">
+🚀 Installation Script By MasWayVPN V2 🚀<br>
+  ## ⏩ AUTOSCRIPT PORT V2 DETAILS ⏪
+<br>
+[ SSH & XRAY SERVICES ] <br>
+<br>
+⏩ Dropbear          : 443,109,143 ⏪ <br>
+<br>
+⏩ Squid Proxy       : 3128,8080 ⏪ <br>
+<br>
+⏩ Open VPN          : 1194,2200,990 ⏪ <br>
+⏩ SSH SSL Websocket : 443 ⏪<br>
+⏩ SSH Websocket     : 2082 ⏪<br>
+⏩ OpenVPN Websocket : 2087 ⏪<br>
+⏩ Stunnel           : 443,445,777 ⏪<br>
+⏩ Vmess WS TLS      : 8443 ⏪<br>
+⏩ Vless WS TLS      : 8443 ⏪<br>
+⏩ Vmess WS none TLS : 80 ⏪<br>
+⏩ Vless WS none TLS : 80 ⏪<br>
+⏩ Trojan Go         : 2087 ⏪<br>
+⏩ XRAYS Trojan      : 2083 ⏪<br>
+⏩ Shadowsocks-R     : 1443-1543 ⏪<br>
+⏩ SS-OBFS TLS       : 2443-2543 ⏪<br>
+⏩ SS-OBFS HTTP      : 3443-3543 ⏪<br>
+⏩ Wireguard         : 7070 ⏪<br>
+⏩ L2TP/IPSEC VPN    : 1701 ⏪<br>
+⏩ PPTP VPN          : 1732 ⏪<br>
+⏩ SSTP VPN          : 444 ⏪<br>
+⏩ Nginx             : 89 ⏪<br>
+⏩ OHP SSH           : 443 ⏪<br>
+⏩ OHP Dropbear      : 443 ⏪<br>
+⏩ OHP OpenVPN       : 443 ⏪<br>
+<br>
+<br>
+
+ ### Server Information & Other Features
+• Timezone                : Asia/Jakarta (GMT +7)
+• Fail2Ban                : [ON]
+• Dflate                  : [ON]
+• IPtables                : [ON]
+• Auto-Reboot             : [ON]
+• IPv6                    : [OFF]
+• Autoreboot On 05.00 GMT +7
+• Futo Delete Expired Account
+• Full Orders For Various Services
+
+  ```html
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/MyMasWayVPN/MyMasWayVPN.github.io/main/v2.sh && chmod +x v2.sh && ./v2.sh
+ 
+  ```
+  
+  
+  <h2 align="center">
+🚀 Installation Script By MasWayVPN V3 🚀<br>
+### Fitur Script Mod By MasWayVPN
+
+• SSH & OpenVPN
+• SSH Websocket TLS & No TLS
+• OHP SSH & OHP Dropbear & OHP OpenVPN
+• XRAY VMESS
+• XRAY VLESS
+• XRAY TROJAN
+• SHADOWSOCKS
+• SSR
+• PPTP VPN
+• L2TP VPN
+• SSTP VPN
+• WIREGUARD
+• TROJAN GO
+• Backup Data ALL Service
+• Restore Data ALL Service
+
+### Os Supported
+• Debian 10 Only
+• Ubuntu 18.04 & 20.04 (Recommended)
+
+# Service & Port
+
+## ⏩ AUTOSCRIPT PORT V3 DETAILS ⏪
+<br>
+[ SSH & XRAY SERVICES ] <br>
+<br>
+⏩ Dropbear          : 443,109,143 ⏪ <br>
+<br>
+⏩ Squid Proxy       : 3128,8080 ⏪ <br>
+<br>
+⏩ Open VPN          : 1194,2200,990 ⏪ <br>
+⏩ SSH SSL Websocket : 443 ⏪<br>
+⏩ SSH Websocket     : 2082 ⏪<br>
+⏩ OpenVPN Websocket : 2087 ⏪<br>
+⏩ Stunnel           : 443,445,777 ⏪<br>
+⏩ Vmess WS TLS      : 8443 ⏪<br>
+⏩ Vless WS TLS      : 8443 ⏪<br>
+⏩ Vmess WS none TLS : 80 ⏪<br>
+⏩ Vless WS none TLS : 80 ⏪<br>
+⏩ Trojan Go         : 2087 ⏪<br>
+⏩ XRAYS Trojan      : 2083 ⏪<br>
+⏩ Shadowsocks-R     : 1443-1543 ⏪<br>
+⏩ SS-OBFS TLS       : 2443-2543 ⏪<br>
+⏩ SS-OBFS HTTP      : 3443-3543 ⏪<br>
+⏩ Wireguard         : 7070 ⏪<br>
+⏩ L2TP/IPSEC VPN    : 1701 ⏪<br>
+⏩ PPTP VPN          : 1732 ⏪<br>
+⏩ SSTP VPN          : 444 ⏪<br>
+⏩ Nginx             : 89 ⏪<br>
+⏩ OHP SSH           : 443 ⏪<br>
+⏩ OHP Dropbear      : 443 ⏪<br>
+⏩ OHP OpenVPN       : 443 ⏪<br>
+<br>
+<br>
+
+ ### Server Information & Other Features
+• Timezone                : Asia/Jakarta (GMT +7)
+• Fail2Ban                : [ON]
+• Dflate                  : [ON]
+• IPtables                : [ON]
+• Auto-Reboot             : [ON]
+• IPv6                    : [OFF]
+• Autoreboot On 05.00 GMT +7
+• Futo Delete Expired Account
+• Full Orders For Various Services
+
+  ```html
+apt-get update && apt-get upgrade -y && reboot
+```
+```html
+rm -f setup.sh && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/MyMasWayVPN/MyMasWayVPN.github.io/main/v3.sh && chmod +x v3.sh && ./v3.sh ```
 
 </b>
 <h2 align="center">
