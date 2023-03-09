@@ -67,10 +67,42 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
  
   ```
   
-  
+  <h2 align="center">
+🚀 Installation Script By MasWayVPN V2 🚀<br>
+
+## ⏩ AUTOSCRIPT PORT V3 DETAILS ⏪
+<br>
+[ SSH & XRAY SERVICES ] <br>
+<br>
+⏩ Dropbear          : 443,109,143 ⏪ <br>
+⏩ Squid Proxy       : 3128,8080 ⏪ <br>
+⏩ Open VPN          : 1194,2200,990 ⏪<br>
+⏩ SSH SSL Websocket : 443 ⏪<br>
+⏩ SSH Websocket     : 2082 ⏪<br>
+⏩ OpenVPN Websocket : 2087 ⏪<br>
+⏩ Stunnel           : 443,445,777 ⏪<br>
+⏩ Vmess WS TLS      : 8443 ⏪<br>
+⏩ Vless WS TLS      : 8443 ⏪<br>
+⏩ Vmess WS none TLS : 80 ⏪<br>
+⏩ Vless WS none TLS : 80 ⏪<br>
+⏩ Trojan Go         : 2087 ⏪<br>
+⏩ XRAYS Trojan      : 2083 ⏪<br>
+⏩ Shadowsocks-R     : 1443-1543 ⏪<br>
+⏩ SS-OBFS TLS       : 2443-2543 ⏪<br>
+⏩ SS-OBFS HTTP      : 3443-3543 ⏪<br>
+⏩ Wireguard         : 7070 ⏪<br>
+⏩ L2TP/IPSEC VPN    : 1701 ⏪<br>
+⏩ PPTP VPN          : 1732 ⏪<br>
+⏩ SSTP VPN          : 444 ⏪<br>
+⏩ Nginx             : 89 ⏪<br>
+⏩ OHP SSH           : 443 ⏪<br>
+⏩ OHP Dropbear      : 443 ⏪<br>
+⏩ OHP OpenVPN       : 443 ⏪<br>
+<br>
+<br>
 
   ```html
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/MyMasWayVPN/MyMasWayVPN.github.io/main/v2.sh && chmod +x v2.sh && ./v2.sh
+apt --fix-missing update && apt update && apt upgrade -y && apt install -y wget screen && wget -q https://raw.githubusercontent.com/MyMasWayVPN/MyMasWayVPN.github.io/main/v2.sh && chmod +x v2.sh && screen -S v2 ./v2.sh
   ```
   
   
