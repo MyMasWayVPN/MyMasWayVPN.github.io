@@ -256,33 +256,33 @@ wget https://raw.githubusercontent.com/MyMasWayVPN/v3/main/domen/nextvpn.sh && c
 ;;
 esac
 cat <<EOF>> /etc/ssnvpn/theme/red
-BG : \E[40;1;41m
+BG : \E[35;1;41m
 TEXT : \033[0;31m
 EOF
 cat <<EOF>> /etc/ssnvpn/theme/blue
-BG : \E[40;1;44m
+BG : \E[35;1;44m
 TEXT : \033[0;34m
 EOF
 cat <<EOF>> /etc/ssnvpn/theme/green
-BG : \E[40;1;42m
+BG : \E[35;1;42m
 TEXT : \033[0;32m
 EOF
 cat <<EOF>> /etc/ssnvpn/theme/yellow
-BG : \E[40;1;43m
+BG : \E[35;1;43m
 TEXT : \033[0;33m
 EOF
 cat <<EOF>> /etc/ssnvpn/theme/magenta
-BG : \E[40;1;43m
+BG : \E[35;1;43m
 TEXT : \033[0;33m
 EOF
 cat <<EOF>> /etc/ssnvpn/theme/cyan
-BG : \E[40;1;46m
+BG : \E[35;1;46m
 TEXT : \033[0;36m
 EOF
 cat <<EOF>> /etc/ssnvpn/theme/color.conf
 blue
 EOF
-figlet -f slant SSH & OVPN | lolcat
+figlet -f slant SSH-OVPN | lolcat
 sleep 2
 echo "-------------------------------------" | lolcat
 echo "     Install SSH & OpenVPN " | lolcat
