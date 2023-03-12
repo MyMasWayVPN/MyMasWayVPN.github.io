@@ -282,6 +282,8 @@ EOF
 cat <<EOF>> /etc/ssnvpn/theme/color.conf
 blue
 EOF
+figlet -f slant SSH & OVPN | lolcat
+sleep 2
 echo "-------------------------------------" | lolcat
 echo "     Install SSH & OpenVPN " | lolcat
 echo "-------------------------------------" | lolcat
@@ -289,6 +291,8 @@ sleep 2
 clear
 wget https://raw.githubusercontent.com/MyMasWayVPN/v2/main/ssh/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 clear
+figlet -f slant XRAY | lolcat
+sleep 2
 echo "-------------------------------------" | lolcat
 echo "     Install Xray " | lolcat
 echo "-------------------------------------" | lolcat
@@ -298,6 +302,8 @@ wget https://raw.githubusercontent.com/MyMasWayVPN/v2/main/xray/ins-xray.sh && c
 clear
 wget https://raw.githubusercontent.com/MyMasWayVPN/v2/main/backup/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 clear
+figlet -f slant Websocket | lolcat
+sleep 2
 echo "-------------------------------------" | lolcat
 echo "     Install Websocket " | lolcat
 echo "-------------------------------------" | lolcat
@@ -307,6 +313,8 @@ wget https://raw.githubusercontent.com/MyMasWayVPN/v2/main/websocket/insshws.sh 
 clear
 wget https://raw.githubusercontent.com/MyMasWayVPN/v2/main/websocket/nontls.sh && chmod +x nontls.sh && ./nontls.sh
 clear
+figlet -f slant SlowDNS | lolcat
+sleep 2
 echo "-------------------------------------" | lolcat
 echo "     Install SlowDNS " | lolcat
 echo "-------------------------------------" | lolcat
@@ -314,6 +322,8 @@ sleep 3
 clear
 wget https://raw.githubusercontent.com/MyMasWayVPN/v2/main/slowdnss/install-sldns.sh && chmod +x install-sldns.sh && ./install-sldns.sh
 clear
+figlet -f slant Menu | lolcat
+sleep 2
 echo "-------------------------------------" | lolcat
 echo "     X-TRA MENU " | lolcat
 echo "-------------------------------------" | lolcat
@@ -356,37 +366,64 @@ gg="AM"
 fi
 curl -sS ifconfig.me > /etc/myipvps
 echo " "
+clear
+figlet -f slant MasWay-VPN | lolcat
+sleep 2
 echo "=====================-[ AutoScript MW-VPN ]-===================="
 echo ""
 echo "------------------------------------------------------------"
 echo ""
 echo ""
 echo "   >>> Service & Port"  | tee -a log-install.txt
+sleep 1
 echo "   - OpenSSH                 : 22"  | tee -a log-install.txt
+sleep 1
 echo "   - SSH Websocket           : 80 [OFF]" | tee -a log-install.txt
+sleep 1
 echo "   - SSH SSL Websocket       : 443" | tee -a log-install.txt
+sleep 1
 echo "   - SSH NON-SSL Websocket   : 80, 8880" | tee -a log-install.txt
+sleep 1
 echo "   - SLOWDNS                 : 5300" | tee -a log-install.txt
+sleep 1
 echo "   - Stunnel4                : 445, 777" | tee -a log-install.txt
+sleep 1
 echo "   - Dropbear                : 109, 143" | tee -a log-install.txt
+sleep 1
 echo "   - Badvpn                  : 7100-7900" | tee -a log-install.txt
+sleep 1
 echo "   - Nginx                   : 81" | tee -a log-install.txt
+sleep 1
 echo "   - XRAY  Vmess TLS         : 443" | tee -a log-install.txt
+sleep 1
 echo "   - XRAY  Vmess None TLS    : 80" | tee -a log-install.txt
+sleep 1
 echo "   - XRAY  Vless TLS         : 443" | tee -a log-install.txt
+sleep 1
 echo "   - XRAY  Vless None TLS    : 80" | tee -a log-install.txt
+sleep 1
 echo "   - Trojan GRPC             : 443" | tee -a log-install.txt
+sleep 1
 echo "   - Trojan WS               : 443" | tee -a log-install.txt
+sleep 1
 echo "   - Sodosok WS/GRPC         : 443" | tee -a log-install.txt
+sleep 1
 echo ""  | tee -a log-install.txt
 echo "   >>> Server Information & Other Features"  | tee -a log-install.txt
 echo "   - Timezone                : Asia/Jakarta (GMT +7)"  | tee -a log-install.txt
+sleep 1
 echo "   - Fail2Ban                : [ON]"  | tee -a log-install.txt
+sleep 1
 echo "   - Dflate                  : [ON]"  | tee -a log-install.txt
+sleep 1
 echo "   - IPtables                : [ON]"  | tee -a log-install.txt
+sleep 1
 echo "   - Auto-Reboot             : [ON]"  | tee -a log-install.txt
+sleep 1
 echo "   - IPv6                    : [OFF]"  | tee -a log-install.txt
+sleep 1
 echo "   - Autoreboot On           : $aureb:00 $gg GMT +7" | tee -a log-install.txt
+sleep 1
 echo "   - Autobackup Data" | tee -a log-install.txt
 echo "   - AutoKill Multi Login User" | tee -a log-install.txt
 echo "   - Auto Delete Expired Account" | tee -a log-install.txt
